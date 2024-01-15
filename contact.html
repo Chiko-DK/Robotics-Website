@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+    <head>
+        <title>RoboTech</title>
+        <style>
+            nav{
+                background-image: url("pictures/darkblue.png");
+            }
+            a{
+                text-decoration: none;
+            }
+            
+            nav ul{
+                float: right;
+                margin-right: 100px;
+                padding: 80px 50px;
+            }
+            nav ul li{
+                float: left;
+                list-style-type: none;
+                
+            }
+            nav ul li a{
+                display: block;
+                font-size: medium;
+                color: white;
+                text-decoration: none;
+                text-align: center;
+                padding: 22px 14px;
+            }
+            nav ul li a:hover{
+                background-color: blue;
+            }
+            fieldset{
+                background:transparent;
+
+                width: 40em;
+                margin: 50px 400px;
+                padding: 20px;
+            }
+            legend{
+
+
+                text-align: center;
+            }
+            label{
+                float: left;
+                width: 8em;
+                text-align: right;
+                margin-right: 15px;
+                
+            }
+            textarea{
+                resize: none;
+                margin-left: 10.7em;
+            }
+            #submit{
+                margin-left: 12em;
+            }
+            body{
+                margin: 0px;
+                background-image: url("pictures/Contact_background.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                color: white;
+            }
+
+            #footer{
+                background-color: rgb(3, 22, 36);
+                margin-top: 50px;
+                padding: 30px 100px;
+                padding-left: 300px;
+                color: white;
+                font-size: larger;
+            }
+            footer div{
+                margin-left: 600px;
+            }
+            footer div a{
+                color: lightblue;
+            }
+        </style>
+
+            
+        
+    </head>
+
+    <body>
+        <div>
+            <nav>   
+                <a href="Home.html"><img src="pictures/Robotech.jpg" alt="icon" width="20%" ></a>
+                <ul>
+                    <li><a href="Robotics.html">ROBOTICS</a></li>
+                    <li><a href="Patrol_Robot.html">PATROL ROBOT</a></li>
+                    <li><a href="Self_car.html">SELF-DRIVING CAR</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    <li><a href="About.html">ABOUT ME</a></li>
+                </ul>
+                <br><br><br><br><br>
+                <hr color="darkblue">
+            </nav>
+        </div>
+
+        <fieldset>
+            <legend><h2>PLEASE SEND ME YOUR FEEDBACK</h2></legend>
+            <form action="mailto:4171425@myuwc.ac.za?subject=Feedback" method="post" enctype="text/plain">
+                <label for="firstname">First Name:</label> <input type="text" name="firstname"> <br><br>
+                <label for="surname">Surname:</label> <input type="text" name="surname"> <br><br>
+                <label for="Email">E-mail:</label> <input type="text" name="Email"> <br><br>
+                <textarea name="feedback" cols="40" rows="15">Enter your message...</textarea> <br>
+                <p id="submit">
+                    <input type="submit" value="Submit"> &nbsp; <input type="reset" value="Clear">
+                </p>
+            </form>
+        </fieldset>
+        
+        <footer id="footer"> 
+            <img src="pictures/Robotech.jpg" alt="icon" width="20%">
+            <br>ROBOT TECHNOLOGY
+            <div>
+                On social media
+                <ul>
+                    <li><a href="https://www.instagram.com/chiko_dk/" target="blank">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/chiko.damberd/" target="blank">Facebook</a></li>
+                    <li><a href="https://twitter.com/CdChiko" target="blank">Twitter</a></li>
+                </ul>
+                Contact
+                <ul>
+                    <li>Email: <a href="mailto:4171425@myuwc.ac.za">4171425@myuwc.ac.za</a></li>
+                    <li>Tel: <a href="tel:+27634523316">+27 63 652 3316</a></li>
+                </ul>
+            </div>            
+        </footer>
+    </body>
+</html>

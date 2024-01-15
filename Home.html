@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RoboTech</title>
+        <style>
+            nav{
+                background-image: url("pictures/darkblue.png");
+            }
+            a{
+                text-decoration: none;
+            }
+            
+            nav ul{
+                padding: 100px 50px;
+                float: right;
+                margin-right: 150px;
+            }
+            nav ul li{
+                float: left;
+                list-style-type: none;
+                background-color: darkblue;
+                
+            }
+            nav ul li a{
+                display: block;
+                font-size: medium;
+                color: white;
+                text-decoration: none;
+                text-align: center;
+                padding: 22px 18px;
+            }
+            nav ul li a:hover{
+                background-color: blue;
+            }
+            body{
+                background-color: lightblue;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+                color: black;
+                padding: 0px;
+                margin: 0px;
+            }
+            
+            .slider{      
+                width: 1200px;
+                height: 800px;
+                background: url("pictures/slide1.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin: 0px 170px;
+                animation: slide 20s infinite;
+            }
+            @keyframes slide{
+                25%{
+                    background: url("pictures/slide2.jpg");
+                    background-size: cover;
+                }
+                50%{
+                    background: url("pictures/slide3.jpg");
+                    background-size: cover;
+                }
+                75%{
+                    background: url("pictures/slide4.jpg");
+                    background-size: cover;
+                }
+                100%{
+                    background: url("pictures/slide1.jpg");
+                    background-size: cover;
+                }
+            }
+            
+            .text{
+                margin: 50px;
+                padding: 0px;
+                text-align: justify;
+                font-size:x-large;
+                text-align: center;
+                
+            }
+            #footer{
+                background-color: rgb(3, 22, 36);
+                margin-top: 50px;
+                padding: 30px 100px;
+                padding-left: 300px;
+                color: white;
+                font-size: larger;
+            }
+            footer div{
+                margin-left: 600px;
+            }
+            footer div a{
+                color: lightblue;
+            }
+        </style>
+
+            
+        
+    </head>
+
+    <body>
+        <div>
+            <nav>
+                <a href="Home.html"><img src="pictures/Robotech.jpg" alt="icon" width="30%" ></a>
+                    <ul>
+                        <li><a href="Robotics.html">ROBOTICS</a></li>
+                        <li><a href="Patrol_Robot.html">PATROL ROBOT</a></li>
+                        <li><a href="Self_car.html">SELF-DRIVING CAR</a></li>
+                        <li><a href="Contact.html">CONTACT</a></li>
+                        <li><a href="About.html">ABOUT ME</a></li>
+                    </ul>
+                    <br><br><br><br><br><br>
+                    <hr color="darkblue">
+            </nav>
+        </div>
+        
+        <div class="text">
+            <h1>ROBOT TECHNOLOGY</h1>
+            <p>  
+                The aim of this website is to help you find the necessary information and understand why robotics can be important in 
+                South Africa. South Africans should not see robots as machines who stole other people’s work but an opportunity for the 
+                development of the country. The website will also provide effective communication and information with customers.
+            </p>
+        </div>
+        
+        <div class="slider">
+           
+        </div>
+        
+        <footer id="footer"> 
+            <img src="pictures/Robotech.jpg" alt="icon" width="20%">
+            <br>ROBOT TECHNOLOGY
+            <div>
+                On social media
+                <ul>
+                    <li><a href="https://www.instagram.com/chiko_dk/" target="blank">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/chiko.damberd/" target="blank">Facebook</a></li>
+                    <li><a href="https://twitter.com/CdChiko" target="blank">Twitter</a></li>
+                </ul>
+                Contact
+                <ul>
+                    <li>Email: <a href="mailto:4171425@myuwc.ac.za">4171425@myuwc.ac.za</a></li>
+                    <li>Tel: <a href="tel:+27634523316">+27 63 652 3316</a></li>
+                </ul>
+            </div>            
+        </footer>
+    </body>
+</html>
